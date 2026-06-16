@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+<style>
+    body{
+    background-image: url(band.jpg);
+    background-size: cover;
+}
+h1{
+    color: rgb(254, 17, 84);
+}
+
+/* NAVBAR */
+.main {
+    background-color: rgb(253, 5, 179);
+    display: flex;               
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.main ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.main ul li a{
+    color: rgb(250, 247, 249);
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+/* Login button on right */
+.login-btn {
+    padding: 10px 20px;
+    background: rgb(248, 22, 157);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: cursive;
+    transition: 0.2s;
+}
+
+.login-btn:hover {
+    background: rgb(180, 12, 141);
+}
+
+
+/* Button styling */
+.btn-3d{
+    background: rgb(249, 1, 203);
+    color: rgb(232, 16, 207);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px white;
+    transition: all 0.15s ease;    
+    padding: 10px 100px;
+}
+
+.btn-3d:active{
+    box-shadow: 0 2px 0 white;
+    transform: translateY(4px);
+}
+
+/* Centering button */
+.button-center {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    height: 60vh;
+}
+    </style>
+   <body>
+<nav class="main">
+    <div class="nav-left">
+        <ul>
+            <li><a>HOME</a></li>
+            <li><a>ABOUT US</a></li>
+            <li><a >PREMIUM</a></li>
+        </ul>
+    </div>
+
+    <div class="nav-right">
+        <a href="main.html" class="login-btn">LOGIN</a>
+    </div>
+</nav>
+</html>
